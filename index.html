@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Mitra Chatbot</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main College Website Content -->
+    <header class="college-header">
+        <div class="header-content">
+            <!-- ✅ Changed: updated logo filename -->
+            <img src="MnnitLogo.jpg" alt="MNNIT Logo" class="college-logo">
+            <h1>MNNIT Allahabad</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Admissions</a>
+                <a href="#">Academics</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="college-main-content">
+        <p>Welcome to our official college website. Here you can find all the information regarding our courses, departments, events, and much more. Feel free to explore!</p>
+        <p>Don't forget to use our AI Assistant for quick queries.</p>
+    </main>
+
+    <footer class="college-footer">
+        <p>&copy; 2025 MNNIT Allahabad. All rights reserved.</p>
+        <a href="#">Privacy Policy</a>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chatbot-toggler" id="chatbot-toggler">
+            <!-- ✅ Added class="chat-icon" so CSS can toggle it -->
+            <span class="material-icons chat-icon">chat</span> 
+            <span class="material-icons close-icon">close</span>
+        </div>
+        <div class="chatbot-box" id="chatbot-box">
+            <div class="chatbot-header">
+                <div class="header-left">
+                    <!-- ✅ Using MNNIT logo as bot avatar -->
+                    <img src="male.jpg" alt="Bot Avatar" class="bot-avatar">
+                    <span>MNNIT Chatbot - Your AI Assistant</span>
+                </div>
+                <div class="header-right">
+                    <div class="language-toggle">
+                        <!-- ✅ Removed flag icons, only toggle left -->
+                        <label class="switch">
+                            <input type="checkbox" id="language-switch">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <select id="active-language" class="language-selector">
+                        <option value="en">English</option>
+                        <option value="hi">Hindi</option>
+                        <option value="ta">Tamil</option>
+                        <option value="te">Telugu</option>
+                        <option value="kn">Kannada</option>
+                    </select>
+                </div>
+            </div>
+            <div class="chatbot-chatbox" id="chatbot-chatbox">
+                <!-- Welcome Message -->
+                <div class="chat-message bot-message">
+                    <p>Namaste! Hello! Vanakkam!<br>I'm Campus Mitra, your multilingual guide. How can I help today?</p>
+                </div>
+                <div class="language-selection-buttons">
+                    <button class="lang-btn active" data-lang="en">English</button>
+                    <button class="lang-btn" data-lang="hi">हिंदी</button>
+                    <button class="lang-btn" data-lang="ta">தமிழ்</button>
+                    <button class="lang-btn show-more-langs">+3 More Regional Languages</button>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <span class="material-icons mic-icon" id="mic-btn">mic</span>
+                <input type="text" id="chat-input" placeholder="Type your query or select a language...">
+                <span class="material-icons attach-icon">attach_file</span>
+                <span class="material-icons send-icon" id="send-btn">send</span>
+            </div>
+            <div class="chatbot-footer-links">
+                <a href="#" class="footer-link">Need human help?</a>
+                <a href="#" class="footer-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

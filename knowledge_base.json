@@ -1,0 +1,32 @@
+{
+  "intents": {
+    "fee_deadline": {
+      "keywords": ["fee", "fees", "payment", "deadline", "last date", "pay", "due"],
+      "responses": {
+        "en": "The last date for fee payment is October 15.",
+        "hi": "फीस भुगतान की अंतिम तिथि 15 अक्टूबर है।"
+      }
+    },
+    "scholarship_application": {
+      "keywords": ["scholarship", "form", "apply", "financial aid", "grant"],
+      "responses": {
+        "en": "Scholarship application forms are available on the college website. You can find the guidelines <a href='/documents/scholarship_guidelines.pdf' target='_blank'>here</a>.",
+        "hi": "छात्रवृत्ति के लिए आवेदन पत्र कॉलेज की वेबसाइट पर उपलब्ध हैं। आप दिशानिर्देश <a href='/documents/scholarship_guidelines.pdf' target='_blank'>यहां</a> पा सकते हैं।"
+      }
+    },
+    "college_timings": {
+      "keywords": ["timings", "hours", "open", "close", "working hours"],
+      "responses": {
+        "en": "College timings are from 9 AM to 5 PM, Monday to Friday.",
+        "hi": "कॉलेज का समय सुबह 9 बजे से शाम 5 बजे तक है, सोमवार से शुक्रवार तक।"
+      }
+    }
+  },
+  "fallbacks": {
+    "en": "I'm sorry, I couldn't find an answer to that question. Would you like to connect with a human assistant?",
+    "hi": "मुझे आपकी बात समझ नहीं आ रही है। क्या आप मानव सहायक से जुड़ना चाहेंगे?",
+    "ta": "என்னால் புரிந்துகொள்ள முடியவில்லை. மனித உதவியாளருடன் இணைக்க வேண்டுமா?",
+    "te": "క్షమించండి, నాకు సమాధానం దొరకలేదు. మీరు మానవ సహాయకుడితో కనెక్ట్ కావాలనుకుంటున్నారా?",
+    "kn": "ಕ್ಷಮಿಸಿ, ನನಗೆ ಉತ್ತರ ಸಿಗಲಿಲ್ಲ. ನೀವು ಮಾನವ ಸಹಾಯಕರೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಬಯಸುವಿರಾ?"
+  }
+}
