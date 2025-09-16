@@ -5,5 +5,5 @@ It integrates seamlessly with the **college website** and can also be deployed o
 
 The chatbot uses **Natural Language Processing (NLP)** to understand queries in **Hindi, English, and regional languages**.  
 For complex or unresolved queries, it provides a **human escalation feature**.  
-**LIVE DEMO**:-
+**LIVE DEMO**:-https://akakhushiverma.github.io/LANGUAGE-AGONISTIC-CHATBOT/
 
